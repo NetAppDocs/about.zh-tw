@@ -5,17 +5,14 @@ keywords:
 summary:  
 ---
 = 關於 docs.netapp.com 網站
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 .網站導覽

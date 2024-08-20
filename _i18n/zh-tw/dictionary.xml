@@ -54,4 +54,40 @@
   <block id="ed014929fa6d1e2a7b2cd335f40c42b6" category="list-text">1 ： 59</block>
   <block id="371c69895ec495bb0ba900238d0dfde0" category="list-text">2 ： 18</block>
   <block id="47a2020d68d5f7d8f999b3bf89a03c1a" category="list-text">2 時 28 分</block>
+  <block id="7fdfed3604c999e7ce591c35bf9ca1e3" category="summary">DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨在回應有關 NetApp 產品的問題。例如、 Doc 可以回應有關 NetApp 儲存效率功能的問題、或是多雲端環境的備份與還原最佳實務做法。</block>
+  <block id="47fcebf3dc368732bbe8a2eaabac815e" category="doc">NetApp 泛用 AI 助理使用條款</block>
+  <block id="7cfd7e3238c2a852ea2f82c03119feb6" category="paragraph">此 Beta 版的 Doc 會建立演算法產生的內容、其中可能包含錯誤或不準確之處。所有產生的內容只能做為起點。您應隨時參閱 NetApp 的正式產品文件、以確認 Doc 的回應。您必須自行承擔依賴 Doc 所產生回應的風險、而 NetApp 對於僅使用 Doc 所產生的回應而可能發生的任何問題或困難概不負責。</block>
+  <block id="229eb04083e06f419f9ac494329f957d" category="section-title">條件</block>
+  <block id="ed9f05b554b94c74deffa021f0c45818" category="paragraph">使用 Doc 即表示您同意在產生內容和回應時遵守下列規則和規定。若不遵守這些條款、可能導致無法使用 Doc.</block>
+  <block id="1492b263677041177b75767d2dbc780b" category="list-text">請勿嘗試使用 Doc 來製作可能造成傷害、濫用、暴力或欺騙的內容。</block>
+  <block id="977674521e01e951ee7b77e735caa1d1" category="list-text">請勿嘗試在超出預期用途範圍的對話中與 Doc 互動、或是針對非 NetApp 產品的問題尋求解答。</block>
+  <block id="82ec2cd6fda87713f588da75c3b1d0ed" category="section-title">功能</block>
+  <block id="a8d0ffdd3caa441024af945401c069ea" category="list-text">DOC 不是象、但有相當多的記憶。</block>
+  <block id="82ccd5b48bcf83ad98f41b4183b07184" category="paragraph">大部分時間、 Doc 都會記住並注意您所討論的內容。如果 Doc 無法追蹤對話、您可以在同一個交談工作階段中啟動新的對話。</block>
+  <block id="bfef452160ef7b86bf242e0d2bdd357c" category="list-text">DOC 是一款 Avid 閱讀器。</block>
+  <block id="0e355d29fd3887f49661d3802e1ea25a" category="paragraph">每當我們的文件發佈在 docs.netapp.com （而且發生了很多）、 Doc 會讀取並參考這些文件以產生回應。Doc 學習速度驚人。</block>
+  <block id="2a7bcb95eb0d0f227b37fb6ec8680c19" category="list-text">DOC 是諮詢式的。</block>
+  <block id="61f8e1f531f123a4df97c1f7782918c8" category="paragraph">除了您提出的問題之外、 DOC 還提供您可能想詢問的問題建議。</block>
+  <block id="1408f478bd58d496e88744dadf1a02b1" category="list-text">DOC 是一種溝通方式。</block>
+  <block id="d0ce116c1cb9fcbf3cb66f15552cce02" category="paragraph">DOC 分享其如何產生回應的深入見解、讓您有機會重述問題。</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
+  <block id="8c9258587429e6e6438d30caf456ff3a" category="list-text">如果 NetApp 產品有多個版本的文件、文件只會參考最新版本以協助產生答案。</block>
+  <block id="ea0bceffd7bdc127834a19dba6a4000c" category="list-text">在試用版期間、文件並未提及所有 NetApp 產品的所有文件。DOC 僅指的是文件子集、包括但不限於 ONTAP 和 BlueXP  文件、以協助產生答案。</block>
+  <block id="4634b38da377884324963fff9cf5bd2f" category="list-text">雖然文件可以提供其他語言的回應、但文件並未讀取非英文版的 NetApp 產品文件。為了確保您擁有最準確的資訊、請務必以英文驗證 Doc 的回應。</block>
+  <block id="a0d4cc0f54602c3f247c72f15a7d2dbf" category="section-title">秘訣</block>
+  <block id="55014c9dfa0b6fb12f159a872f65dc2a" category="list-text">DOC 非常喜歡特定問題。</block>
+  <block id="39af031d661a8d60c6eb934145542f88" category="paragraph">當您明確引用產品名稱、介面（例如 GUI 或 API ）和版本時、 DOC 會提供更好的回應。例如： _ 我應該在系統管理員中執行哪些步驟、從 ONTAP 9.8 升級至 ONTAP 9.12.1?_</block>
+  <block id="ae5ba765952a9c408e513612743afd2d" category="list-text">需要瞭解如何做一些事嗎？</block>
+  <block id="da5f06b84806d0f43edbcdf8ab9140e3" category="paragraph">請考慮要求文件納入步驟。不要詢問 Doc _ 如何在沒有網際網路的情況下安裝 BlueXP  Connector ？ _ 請嘗試詢問 _ 如果要在沒有網際網路的情況下安裝 BlueXP  Connector 、我應該遵循哪些步驟？ _</block>
+  <block id="1fb87efde9d27c81852aef738416fea5" category="list-text">提出簡單的問題。</block>
+  <block id="56a8772e302d94cfd17246eecc01b02a" category="paragraph">如果您需要提出複雜的問題、請將問題分成幾個較小的問題（這有時稱為連鎖問題）。在交談階段作業期間、 Doc 會注意並記住您提出的問題。</block>
+  <block id="546f372fd0732757db387209bc7e5e4e" category="paragraph">與其詢問 Doc _ 如何在 BlueXP  中設定勒索軟體保護和備份排程？ _ 請嘗試 _ 在 BlueXP  中設定勒索軟體保護的步驟為何？ _ 以及 _ 在 BlueXP  中設定備份排程的步驟為何？ _</block>
+  <block id="f2e25aa9036d6798312b7ccb5891aa13" category="list-text">請使用引號來釐清何時需要 Doc 注意 Doc 可能會誤解的多字詞組。</block>
+  <block id="c2831909c9ecc0befad064d2ee8566ff" category="paragraph">例如、如果您詢問 Doc _ ONTAP 如何計算儲存效率？ _ 可能的是、文件會認為您會將儲存與效率視為兩個不相關的詞彙。為了確保 Doc 瞭解您所詢問的（稱為「概念」）儲存效率、請將該詞句以類似的方式括在引號內： _ 如何在 ONTAP 中計算「儲存效率」？ _</block>
+  <block id="af86dd4b829e0feb137a94ed8e9ec7eb" category="paragraph">如果您正在與人交談、您可能會強調這句話、可能會使用空中引述或手勢、以某種方式使區別顯而易見。請將雙引號想像成一個手勢、協助 Doc 瞭解您在談論什麼。</block>
+  <block id="e423d49b947f8deb0f39c1fc9aa13006" category="list-text">回應後、 Doc 會提供深入見解、讓您瞭解它如何產生回應。保持好奇心。</block>
+  <block id="4ad038ec67eddd3dd262b131a2914027" category="paragraph">嘗試不同的提問模式和方法。如果您沒有得到想要的結果、請嘗試重新說明問題。</block>
+  <block id="bea4c2c8eb82d05891ddd71584881b56" category="section-title">意見反應</block>
+  <block id="39f370d8d247a2c0eb7047953bdd4740" category="paragraph">我們正努力持續改善 Doc.請在 Doc 的聊天視窗中傳送意見給我們。請告訴我們、 Doc 的答案是否正確且有幫助、或是否不完整或有任何不足之處。如果您對 Doc 的功能或回應有任何疑問或疑慮、也可以傳送電子郵件至 mailto ： ng-doccoments@netapp.com [ 聯絡我們 ] 。</block>
+  <block id="043395774d0b5e5fa6d8e5cd9b8ce5a2" category="sidebar">關於 Doc （ AI 輔助）</block>
 </blocks>
