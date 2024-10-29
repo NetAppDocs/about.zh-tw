@@ -54,8 +54,6 @@
   <block id="ed014929fa6d1e2a7b2cd335f40c42b6" category="list-text">1 ： 59</block>
   <block id="371c69895ec495bb0ba900238d0dfde0" category="list-text">2 ： 18</block>
   <block id="47a2020d68d5f7d8f999b3bf89a03c1a" category="list-text">2 時 28 分</block>
-  <block id="7fdfed3604c999e7ce591c35bf9ca1e3" category="summary">DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨在回應有關 NetApp 產品的問題。例如、 Doc 可以回應有關 NetApp 儲存效率功能的問題、或是多雲端環境的備份與還原最佳實務做法。</block>
-  <block id="47fcebf3dc368732bbe8a2eaabac815e" category="doc">NetApp 泛用 AI 助理使用條款</block>
   <block id="7cfd7e3238c2a852ea2f82c03119feb6" category="paragraph">此 Beta 版的 Doc 會建立演算法產生的內容、其中可能包含錯誤或不準確之處。所有產生的內容只能做為起點。您應隨時參閱 NetApp 的正式產品文件、以確認 Doc 的回應。您必須自行承擔依賴 Doc 所產生回應的風險、而 NetApp 對於僅使用 Doc 所產生的回應而可能發生的任何問題或困難概不負責。</block>
   <block id="229eb04083e06f419f9ac494329f957d" category="section-title">條件</block>
   <block id="ed9f05b554b94c74deffa021f0c45818" category="paragraph">使用 Doc 即表示您同意在產生內容和回應時遵守下列規則和規定。若不遵守這些條款、可能導致無法使用 Doc.</block>
@@ -72,7 +70,6 @@
   <block id="d0ce116c1cb9fcbf3cb66f15552cce02" category="paragraph">DOC 分享其如何產生回應的深入見解、讓您有機會重述問題。</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
   <block id="8c9258587429e6e6438d30caf456ff3a" category="list-text">如果 NetApp 產品有多個版本的文件、文件只會參考最新版本以協助產生答案。</block>
-  <block id="ea0bceffd7bdc127834a19dba6a4000c" category="list-text">在試用版期間、文件並未提及所有 NetApp 產品的所有文件。DOC 僅指的是文件子集、包括但不限於 ONTAP 和 BlueXP  文件、以協助產生答案。</block>
   <block id="4634b38da377884324963fff9cf5bd2f" category="list-text">雖然文件可以提供其他語言的回應、但文件並未讀取非英文版的 NetApp 產品文件。為了確保您擁有最準確的資訊、請務必以英文驗證 Doc 的回應。</block>
   <block id="a0d4cc0f54602c3f247c72f15a7d2dbf" category="section-title">秘訣</block>
   <block id="55014c9dfa0b6fb12f159a872f65dc2a" category="list-text">DOC 非常喜歡特定問題。</block>
@@ -90,4 +87,14 @@
   <block id="bea4c2c8eb82d05891ddd71584881b56" category="section-title">意見反應</block>
   <block id="39f370d8d247a2c0eb7047953bdd4740" category="paragraph">我們正努力持續改善 Doc.請在 Doc 的聊天視窗中傳送意見給我們。請告訴我們、 Doc 的答案是否正確且有幫助、或是否不完整或有任何不足之處。如果您對 Doc 的功能或回應有任何疑問或疑慮、也可以傳送電子郵件至 mailto ： ng-doccoments@netapp.com [ 聯絡我們 ] 。</block>
   <block id="043395774d0b5e5fa6d8e5cd9b8ce5a2" category="sidebar">關於 Doc （ AI 輔助）</block>
+  <block id="defcec3c682659592679e8272cd2e9b5" category="summary">DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨在使用 NetApp .com 上發佈的內容來回應有關 NetApp 產品的問題。例如、 Doc 可以回應有關 NetApp 儲存效率功能的問題、或是多雲端環境的備份與還原最佳實務做法。</block>
+  <block id="3ac8c79d6a5b493f652fb0b8461750c8" category="doc">NetApp 泛用 AI 輔助使用條款</block>
+  <block id="dc7435058c3ed56d99ee34e365ff0b39" category="summary">NetApp .com 提供 NetApp 泛用 AI 輔助文件。DOC 僅使用本網站上發佈的內容來回應有關 NetApp 產品的問題。DOC 不會使用其他 NetApp 網站或公用網際網路的內容來回答問題。</block>
+  <block id="da83087ce1e5e3d3a31ddadde291fcd7" category="doc">NetApp 泛用 AI 型助理總覽</block>
+  <block id="402fe4efa3c4cc0d6ede3f565f0bc06d" category="paragraph">NetApp .com 提供 NetApp 泛用 AI 驅動的助理「文件」。DOC 僅使用本網站上發佈的內容來回應有關 NetApp 產品的問題。DOC 不會使用其他 NetApp 網站或公用網際網路的內容來回答問題。</block>
+  <block id="74f4a4764082dcf42186f10b47664954" category="list-text">DOC 僅使用 NetApp .com 上發佈的內容來產生答案。DOC 不會從其他 NetApp 網站上發佈的內容產生答案。</block>
+  <block id="9b0e72a3de618b5a1f6d4ebdecc32134" category="list-text">在試用版期間、文件並未提及所有 NetApp 產品的所有文件。DOC 僅指的是文件子集、包括但不限於 ONTAP 、 BlueXP  、 StorageGRID 、 Keystone 和 SnapCenter 文件、以協助產生答案。如果您正在尋找文件不知道的資訊、請寄電子郵件至 mailto:ng-doccoments NetApp .com[ 請告訴我們 ] 。</block>
+  <block id="44c830e5279537009e37c5f1d7e33426" category="list-text">DOC 並未提及您所使用的頁面、因此無法針對您感興趣的產品做出假設。請盡可能針對您的問題做出具體說明、並提及產品名稱和版本。</block>
+  <block id="ffa82bc3c7eca2bab1fae02c80ab8216" category="sidebar">功能與限制</block>
+  <block id="b5b7b6c5b5f08dd62ed2dc52c7a4cfe8" category="sidebar">使用條款</block>
 </blocks>

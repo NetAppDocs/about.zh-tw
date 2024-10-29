@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: doc-gen-ai-assistant.html 
-keywords:  
-summary: DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨在回應有關 NetApp 產品的問題。例如、 Doc 可以回應有關 NetApp 儲存效率功能的問題、或是多雲端環境的備份與還原最佳實務做法。 
+keywords: netapp, generative ai, doc 
+summary: NetApp .com 提供 NetApp 泛用 AI 輔助文件。DOC 僅使用本網站上發佈的內容來回應有關 NetApp 產品的問題。DOC 不會使用其他 NetApp 網站或公用網際網路的內容來回答問題。 
 ---
-= NetApp 泛用 AI 助理使用條款
+= NetApp 泛用 AI 型助理總覽
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -13,19 +13,7 @@ summary: DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨
 
 
 [role="lead"]
-DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨在回應有關 NetApp 產品的問題。例如、 Doc 可以回應有關 NetApp 儲存效率功能的問題、或是多雲端環境的備份與還原最佳實務做法。
-
-此 Beta 版的 Doc 會建立演算法產生的內容、其中可能包含錯誤或不準確之處。所有產生的內容只能做為起點。您應隨時參閱 NetApp 的正式產品文件、以確認 Doc 的回應。您必須自行承擔依賴 Doc 所產生回應的風險、而 NetApp 對於僅使用 Doc 所產生的回應而可能發生的任何問題或困難概不負責。
-
-
-
-== 條件
-
-使用 Doc 即表示您同意在產生內容和回應時遵守下列規則和規定。若不遵守這些條款、可能導致無法使用 Doc.
-
-* 請勿嘗試使用 Doc 來製作可能造成傷害、濫用、暴力或欺騙的內容。
-* 請勿嘗試在超出預期用途範圍的對話中與 Doc 互動、或是針對非 NetApp 產品的問題尋求解答。
-
+NetApp .com 提供 NetApp 泛用 AI 驅動的助理「文件」。DOC 僅使用本網站上發佈的內容來回應有關 NetApp 產品的問題。DOC 不會使用其他 NetApp 網站或公用網際網路的內容來回答問題。
 
 
 
@@ -53,8 +41,10 @@ DOC 分享其如何產生回應的深入見解、讓您有機會重述問題。
 
 == 限制
 
+* DOC 僅使用 NetApp .com 上發佈的內容來產生答案。DOC 不會從其他 NetApp 網站上發佈的內容產生答案。
+* 在試用版期間、文件並未提及所有 NetApp 產品的所有文件。DOC 僅指的是文件子集、包括但不限於 ONTAP 、 BlueXP  、 StorageGRID 、 Keystone 和 SnapCenter 文件、以協助產生答案。如果您正在尋找文件不知道的資訊、請寄電子郵件至 mailto:ng-doccoments NetApp .com[ 請告訴我們 ] 。
 * 如果 NetApp 產品有多個版本的文件、文件只會參考最新版本以協助產生答案。
-* 在試用版期間、文件並未提及所有 NetApp 產品的所有文件。DOC 僅指的是文件子集、包括但不限於 ONTAP 和 BlueXP  文件、以協助產生答案。
+* DOC 並未提及您所使用的頁面、因此無法針對您感興趣的產品做出假設。請盡可能針對您的問題做出具體說明、並提及產品名稱和版本。
 * 雖然文件可以提供其他語言的回應、但文件並未讀取非英文版的 NetApp 產品文件。為了確保您擁有最準確的資訊、請務必以英文驗證 Doc 的回應。
 
 
