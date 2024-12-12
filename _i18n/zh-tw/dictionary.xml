@@ -85,7 +85,6 @@
   <block id="e423d49b947f8deb0f39c1fc9aa13006" category="list-text">回應後、 Doc 會提供深入見解、讓您瞭解它如何產生回應。保持好奇心。</block>
   <block id="4ad038ec67eddd3dd262b131a2914027" category="paragraph">嘗試不同的提問模式和方法。如果您沒有得到想要的結果、請嘗試重新說明問題。</block>
   <block id="bea4c2c8eb82d05891ddd71584881b56" category="section-title">意見反應</block>
-  <block id="39f370d8d247a2c0eb7047953bdd4740" category="paragraph">我們正努力持續改善 Doc.請在 Doc 的聊天視窗中傳送意見給我們。請告訴我們、 Doc 的答案是否正確且有幫助、或是否不完整或有任何不足之處。如果您對 Doc 的功能或回應有任何疑問或疑慮、也可以傳送電子郵件至 mailto ： ng-doccoments@netapp.com [ 聯絡我們 ] 。</block>
   <block id="043395774d0b5e5fa6d8e5cd9b8ce5a2" category="sidebar">關於 Doc （ AI 輔助）</block>
   <block id="defcec3c682659592679e8272cd2e9b5" category="summary">DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨在使用 NetApp .com 上發佈的內容來回應有關 NetApp 產品的問題。例如、 Doc 可以回應有關 NetApp 儲存效率功能的問題、或是多雲端環境的備份與還原最佳實務做法。</block>
   <block id="3ac8c79d6a5b493f652fb0b8461750c8" category="doc">NetApp 泛用 AI 輔助使用條款</block>
@@ -93,8 +92,9 @@
   <block id="da83087ce1e5e3d3a31ddadde291fcd7" category="doc">NetApp 泛用 AI 型助理總覽</block>
   <block id="402fe4efa3c4cc0d6ede3f565f0bc06d" category="paragraph">NetApp .com 提供 NetApp 泛用 AI 驅動的助理「文件」。DOC 僅使用本網站上發佈的內容來回應有關 NetApp 產品的問題。DOC 不會使用其他 NetApp 網站或公用網際網路的內容來回答問題。</block>
   <block id="74f4a4764082dcf42186f10b47664954" category="list-text">DOC 僅使用 NetApp .com 上發佈的內容來產生答案。DOC 不會從其他 NetApp 網站上發佈的內容產生答案。</block>
-  <block id="9b0e72a3de618b5a1f6d4ebdecc32134" category="list-text">在試用版期間、文件並未提及所有 NetApp 產品的所有文件。DOC 僅指的是文件子集、包括但不限於 ONTAP 、 BlueXP  、 StorageGRID 、 Keystone 和 SnapCenter 文件、以協助產生答案。如果您正在尋找文件不知道的資訊、請寄電子郵件至 mailto:ng-doccoments NetApp .com[ 請告訴我們 ] 。</block>
   <block id="44c830e5279537009e37c5f1d7e33426" category="list-text">DOC 並未提及您所使用的頁面、因此無法針對您感興趣的產品做出假設。請盡可能針對您的問題做出具體說明、並提及產品名稱和版本。</block>
   <block id="ffa82bc3c7eca2bab1fae02c80ab8216" category="sidebar">功能與限制</block>
   <block id="b5b7b6c5b5f08dd62ed2dc52c7a4cfe8" category="sidebar">使用條款</block>
+  <block id="858a13328205a50b4d4ea7a8e790b8b7" category="paragraph">我們正努力持續改善 Doc.請在 Doc 的聊天視窗中傳送意見給我們。請告訴我們、 Doc 的答案是否正確且有幫助、或是否不完整或有任何不足之處。如果您對文件的功能或回應有任何疑問或疑慮，也可以傳送電子郵件至 mailto ： ng-docComments @ NetApp 。 com[ 請與我們聯絡 ] 。</block>
+  <block id="9ad4361a0d51af27ebbe2cc42d8b064b" category="list-text">在試用版期間、文件並未提及所有 NetApp 產品的所有文件。DOC 僅指的是文件子集、包括但不限於 ONTAP 、 BlueXP  、 StorageGRID 、 Keystone 和 SnapCenter 文件、以協助產生答案。如果您正在尋找文件不知道的資訊，請寄電子郵件至 mailto:ng-docComments NetApp .com[ 請告訴我們 ] 。</block>
 </blocks>
