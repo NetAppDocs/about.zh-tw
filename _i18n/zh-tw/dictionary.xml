@@ -59,42 +59,43 @@
   <block id="ed9f05b554b94c74deffa021f0c45818" category="paragraph">使用 Doc 即表示您同意在產生內容和回應時遵守下列規則和規定。若不遵守這些條款、可能導致無法使用 Doc.</block>
   <block id="1492b263677041177b75767d2dbc780b" category="list-text">請勿嘗試使用 Doc 來製作可能造成傷害、濫用、暴力或欺騙的內容。</block>
   <block id="977674521e01e951ee7b77e735caa1d1" category="list-text">請勿嘗試在超出預期用途範圍的對話中與 Doc 互動、或是針對非 NetApp 產品的問題尋求解答。</block>
-  <block id="82ec2cd6fda87713f588da75c3b1d0ed" category="section-title">功能</block>
-  <block id="a8d0ffdd3caa441024af945401c069ea" category="list-text">DOC 不是象、但有相當多的記憶。</block>
-  <block id="82ccd5b48bcf83ad98f41b4183b07184" category="paragraph">大部分時間、 Doc 都會記住並注意您所討論的內容。如果 Doc 無法追蹤對話、您可以在同一個交談工作階段中啟動新的對話。</block>
-  <block id="bfef452160ef7b86bf242e0d2bdd357c" category="list-text">DOC 是一款 Avid 閱讀器。</block>
-  <block id="0e355d29fd3887f49661d3802e1ea25a" category="paragraph">每當我們的文件發佈在 docs.netapp.com （而且發生了很多）、 Doc 會讀取並參考這些文件以產生回應。Doc 學習速度驚人。</block>
-  <block id="2a7bcb95eb0d0f227b37fb6ec8680c19" category="list-text">DOC 是諮詢式的。</block>
-  <block id="61f8e1f531f123a4df97c1f7782918c8" category="paragraph">除了您提出的問題之外、 DOC 還提供您可能想詢問的問題建議。</block>
-  <block id="1408f478bd58d496e88744dadf1a02b1" category="list-text">DOC 是一種溝通方式。</block>
-  <block id="d0ce116c1cb9fcbf3cb66f15552cce02" category="paragraph">DOC 分享其如何產生回應的深入見解、讓您有機會重述問題。</block>
-  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
-  <block id="8c9258587429e6e6438d30caf456ff3a" category="list-text">如果 NetApp 產品有多個版本的文件、文件只會參考最新版本以協助產生答案。</block>
-  <block id="4634b38da377884324963fff9cf5bd2f" category="list-text">雖然文件可以提供其他語言的回應、但文件並未讀取非英文版的 NetApp 產品文件。為了確保您擁有最準確的資訊、請務必以英文驗證 Doc 的回應。</block>
-  <block id="a0d4cc0f54602c3f247c72f15a7d2dbf" category="section-title">秘訣</block>
-  <block id="55014c9dfa0b6fb12f159a872f65dc2a" category="list-text">DOC 非常喜歡特定問題。</block>
-  <block id="39af031d661a8d60c6eb934145542f88" category="paragraph">當您明確引用產品名稱、介面（例如 GUI 或 API ）和版本時、 DOC 會提供更好的回應。例如： _ 我應該在系統管理員中執行哪些步驟、從 ONTAP 9.8 升級至 ONTAP 9.12.1?_</block>
-  <block id="ae5ba765952a9c408e513612743afd2d" category="list-text">需要瞭解如何做一些事嗎？</block>
-  <block id="da5f06b84806d0f43edbcdf8ab9140e3" category="paragraph">請考慮要求文件納入步驟。不要詢問 Doc _ 如何在沒有網際網路的情況下安裝 BlueXP  Connector ？ _ 請嘗試詢問 _ 如果要在沒有網際網路的情況下安裝 BlueXP  Connector 、我應該遵循哪些步驟？ _</block>
-  <block id="1fb87efde9d27c81852aef738416fea5" category="list-text">提出簡單的問題。</block>
-  <block id="56a8772e302d94cfd17246eecc01b02a" category="paragraph">如果您需要提出複雜的問題、請將問題分成幾個較小的問題（這有時稱為連鎖問題）。在交談階段作業期間、 Doc 會注意並記住您提出的問題。</block>
-  <block id="546f372fd0732757db387209bc7e5e4e" category="paragraph">與其詢問 Doc _ 如何在 BlueXP  中設定勒索軟體保護和備份排程？ _ 請嘗試 _ 在 BlueXP  中設定勒索軟體保護的步驟為何？ _ 以及 _ 在 BlueXP  中設定備份排程的步驟為何？ _</block>
-  <block id="f2e25aa9036d6798312b7ccb5891aa13" category="list-text">請使用引號來釐清何時需要 Doc 注意 Doc 可能會誤解的多字詞組。</block>
-  <block id="c2831909c9ecc0befad064d2ee8566ff" category="paragraph">例如、如果您詢問 Doc _ ONTAP 如何計算儲存效率？ _ 可能的是、文件會認為您會將儲存與效率視為兩個不相關的詞彙。為了確保 Doc 瞭解您所詢問的（稱為「概念」）儲存效率、請將該詞句以類似的方式括在引號內： _ 如何在 ONTAP 中計算「儲存效率」？ _</block>
-  <block id="af86dd4b829e0feb137a94ed8e9ec7eb" category="paragraph">如果您正在與人交談、您可能會強調這句話、可能會使用空中引述或手勢、以某種方式使區別顯而易見。請將雙引號想像成一個手勢、協助 Doc 瞭解您在談論什麼。</block>
-  <block id="e423d49b947f8deb0f39c1fc9aa13006" category="list-text">回應後、 Doc 會提供深入見解、讓您瞭解它如何產生回應。保持好奇心。</block>
-  <block id="4ad038ec67eddd3dd262b131a2914027" category="paragraph">嘗試不同的提問模式和方法。如果您沒有得到想要的結果、請嘗試重新說明問題。</block>
   <block id="bea4c2c8eb82d05891ddd71584881b56" category="section-title">意見反應</block>
   <block id="043395774d0b5e5fa6d8e5cd9b8ce5a2" category="sidebar">關於 Doc （ AI 輔助）</block>
   <block id="defcec3c682659592679e8272cd2e9b5" category="summary">DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨在使用 NetApp .com 上發佈的內容來回應有關 NetApp 產品的問題。例如、 Doc 可以回應有關 NetApp 儲存效率功能的問題、或是多雲端環境的備份與還原最佳實務做法。</block>
   <block id="3ac8c79d6a5b493f652fb0b8461750c8" category="doc">NetApp 泛用 AI 輔助使用條款</block>
-  <block id="dc7435058c3ed56d99ee34e365ff0b39" category="summary">NetApp .com 提供 NetApp 泛用 AI 輔助文件。DOC 僅使用本網站上發佈的內容來回應有關 NetApp 產品的問題。DOC 不會使用其他 NetApp 網站或公用網際網路的內容來回答問題。</block>
   <block id="da83087ce1e5e3d3a31ddadde291fcd7" category="doc">NetApp 泛用 AI 型助理總覽</block>
-  <block id="402fe4efa3c4cc0d6ede3f565f0bc06d" category="paragraph">NetApp .com 提供 NetApp 泛用 AI 驅動的助理「文件」。DOC 僅使用本網站上發佈的內容來回應有關 NetApp 產品的問題。DOC 不會使用其他 NetApp 網站或公用網際網路的內容來回答問題。</block>
-  <block id="74f4a4764082dcf42186f10b47664954" category="list-text">DOC 僅使用 NetApp .com 上發佈的內容來產生答案。DOC 不會從其他 NetApp 網站上發佈的內容產生答案。</block>
-  <block id="44c830e5279537009e37c5f1d7e33426" category="list-text">DOC 並未提及您所使用的頁面、因此無法針對您感興趣的產品做出假設。請盡可能針對您的問題做出具體說明、並提及產品名稱和版本。</block>
   <block id="ffa82bc3c7eca2bab1fae02c80ab8216" category="sidebar">功能與限制</block>
   <block id="b5b7b6c5b5f08dd62ed2dc52c7a4cfe8" category="sidebar">使用條款</block>
   <block id="858a13328205a50b4d4ea7a8e790b8b7" category="paragraph">我們正努力持續改善 Doc.請在 Doc 的聊天視窗中傳送意見給我們。請告訴我們、 Doc 的答案是否正確且有幫助、或是否不完整或有任何不足之處。如果您對文件的功能或回應有任何疑問或疑慮，也可以傳送電子郵件至 mailto ： ng-docComments @ NetApp 。 com[ 請與我們聯絡 ] 。</block>
-  <block id="9ad4361a0d51af27ebbe2cc42d8b064b" category="list-text">在試用版期間、文件並未提及所有 NetApp 產品的所有文件。DOC 僅指的是文件子集、包括但不限於 ONTAP 、 BlueXP  、 StorageGRID 、 Keystone 和 SnapCenter 文件、以協助產生答案。如果您正在尋找文件不知道的資訊，請寄電子郵件至 mailto:ng-docComments NetApp .com[ 請告訴我們 ] 。</block>
+  <block id="0d170dccad1565dabf52d4a404e9f01e" category="summary">DOC 是 NetApp .com 上提供的 NetApp AI 助理。只使用本網站的內容來回答問題。DOC 不會使用其他 NetApp 網站或公用網際網路的內容來回答問題。</block>
+  <block id="6179d3ef872af4eb960f4c34232845fc" category="paragraph">DOC 可以根據先前的問題建立回應，提出其他問題，並說明如何產生回應。這使得它成為瀏覽 NetApp 文件的寶貴工具。</block>
+  <block id="78d84dc38711d923fa1dc1351e7e5a90" category="section-title">範圍和限制</block>
+  <block id="e02e8d81102c18e5ac8688f45881ccb4" category="paragraph">DOC 只能根據 NetApp .com 上發佈的精選內容回答問題。</block>
+  <block id="ac9a966db57853c0bb3b03769804fffe" category="admonition">在此試用階段，文件並未接受所有 NetApp .com 內容的訓練。DOC 可回答有關內容的問題，包括但不限於 ONTAP ， BlueXP  ， StorageGRID ， Keystone 和 SnapCenter 內容。如果您不需要資訊文件，請告訴我們。</block>
+  <block id="5cce09c2cd6acff384726d4c5913b10a" category="list-text">如果您未指定產品版本， Doc 會根據最新發佈的版本回答問題。如有需要，您可以在問題中指定較早的版本。</block>
+  <block id="ba2e07590de589acb6827cadda0ba814" category="list-text">DOC 不知道您在詢問問題時所在的頁面為何。為獲得最佳結果，請特別說明產品名稱和版本。</block>
+  <block id="d3aab3cd74c1c5868499ccc53ebe0a75" category="list-text">DOC 可以使用 NetApp .com 支援的語言聊天，但未接受非英文版本的訓練。</block>
+  <block id="e4a95039ccdfb7b85c839ab71de68d99" category="section-title">寫下良好的提示</block>
+  <block id="b0d6ece087301f0de0e69fb8d2e2b5ec" category="paragraph">請遵循以下秘訣，以獲得 Doc.</block>
+  <block id="a7e39a4b3056ffa36b99607ab22c9468" category="list-text">提出具體問題。</block>
+  <block id="dd9caa784c9ca3239781bc659f74ccb8" category="list-text">寫下詳細問題，並指定產品名稱，版本和介面類型（ GUI ， API ）。例如：</block>
+  <block id="ccf6477a42eb38a386f552adc5eacddd" category="paragraph">若要從 ONTAP 9.8 升級至 ONTAP 9.12.1 ，我應該在系統管理員中遵循哪些步驟？</block>
+  <block id="8558282ecc55619316ab757a333f9464" category="list-text">要求步驟以完成工作。</block>
+  <block id="8f6d686a8622f503fb23b364e0cf71ab" category="list-text">請 Doc 納入完成程序的步驟。不詢問我要如何在沒有網際網路的情況下安裝 BlueXP  Connector ？ _ 請嘗試：</block>
+  <block id="3ef101280b587102ce939479558aa055" category="paragraph">如果要在沒有網際網路的情況下安裝 BlueXP  Connector ，我應該遵循哪些步驟？</block>
+  <block id="275396194b219acfa3d9cda68ae5b93c" category="list-text">將複雜的問題分成多個區塊。</block>
+  <block id="35fec273a859ca1e6628462d78db71c3" category="list-text">將複雜問題分成較小的問題（也稱為 _ 鏈接 _ ）。DOC 會記住先前的問題，並在您繼續聊天時建立更複雜的答案。</block>
+  <block id="25ef66eb46ca88d1d3a93f83a5769355" category="paragraph">例如，與其詢問 Doc _How do I configure 勒索軟體保護和備份排程 in BlueXP  ？ _ 請嘗試：</block>
+  <block id="84de75573d217bda8683d66d37460ded" category="paragraph">在 BlueXP  中設定勒索軟體保護的步驟為何？</block>
+  <block id="9f6c2280afbfa54b375e1af3ff06c653" category="paragraph">接著詢問：</block>
+  <block id="af21a9a42fc6c57d40376fa86d55441c" category="paragraph">在 BlueXP  中設定備份排程的步驟為何？</block>
+  <block id="d3badbdbe83ec6535fa70220c14ec37e" category="list-text">請使用引號。</block>
+  <block id="102e31705b2b7aa77cd5895ec984961b" category="list-text">請將多字詞組括在引號中。這有助於 Doc 將該詞彙辨識為單一概念，就像您在與人對話時強調該詞彙的方式一樣。</block>
+  <block id="8ac004a4dacf3f869c93fa6b2f1f058e" category="paragraph">例如，在本問題中， _ 如何在 ONTAP 中計算儲存效率？ _ 文件可能認為您提出的是 _ 儲存 _ 和 _ 效率 _ 兩個不相關的詞彙。請改為嘗試：</block>
+  <block id="d8b6f28e3584b30ddf16994ca1102070" category="paragraph">如何在 ONTAP 中計算「儲存效率」？</block>
+  <block id="bd6aea123f1cd8db72d8427cac215429" category="list-text">檢視 Doc 的回應方式。</block>
+  <block id="afae99cf2edf2a9320bf47938ace301b" category="list-text">回應後、 Doc 會提供深入見解、讓您瞭解它如何產生回應。這可以讓您構思如何調整問題，以取得所需的結果。</block>
+  <block id="e10d7022bccbf44b070810cd5909184e" category="list-text">清除聊天記錄</block>
+  <block id="3508984ba8ee3276c733e57293128c50" category="list-text">如果您想要變更主題，請在開始時清除聊天。由於 Doc 會記住先前的問題，因此主題變更可能會產生非預期的結果。</block>
+  <block id="5ac85d6acb2d0e353a29dbf8a61e4a47" category="paragraph">您的意見回饋有助於我們改善 Doc 的回應方式。使用「文件」聊天視窗中的意見回饋工具，讓我們知道答案是否準確且有幫助，或是否需要改善。您也可以透過 mailto ： ng-docComments @ NetApp ． com[ 與我們聯絡 ] 提出問題或意見回饋。</block>
 </blocks>
