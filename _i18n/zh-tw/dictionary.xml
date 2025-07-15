@@ -72,8 +72,6 @@
   <block id="78d84dc38711d923fa1dc1351e7e5a90" category="section-title">範圍和限制</block>
   <block id="e02e8d81102c18e5ac8688f45881ccb4" category="paragraph">DOC 只能根據 NetApp .com 上發佈的精選內容回答問題。</block>
   <block id="ac9a966db57853c0bb3b03769804fffe" category="admonition">在此試用階段，文件並未接受所有 NetApp .com 內容的訓練。DOC 可回答有關內容的問題，包括但不限於 ONTAP ， BlueXP  ， StorageGRID ， Keystone 和 SnapCenter 內容。如果您不需要資訊文件，請告訴我們。</block>
-  <block id="5cce09c2cd6acff384726d4c5913b10a" category="list-text">如果您未指定產品版本， Doc 會根據最新發佈的版本回答問題。如有需要，您可以在問題中指定較早的版本。</block>
-  <block id="ba2e07590de589acb6827cadda0ba814" category="list-text">DOC 不知道您在詢問問題時所在的頁面為何。為獲得最佳結果，請特別說明產品名稱和版本。</block>
   <block id="d3aab3cd74c1c5868499ccc53ebe0a75" category="list-text">DOC 可以使用 NetApp .com 支援的語言聊天，但未接受非英文版本的訓練。</block>
   <block id="e4a95039ccdfb7b85c839ab71de68d99" category="section-title">寫下良好的提示</block>
   <block id="b0d6ece087301f0de0e69fb8d2e2b5ec" category="paragraph">請遵循以下秘訣，以獲得 Doc.</block>
@@ -98,4 +96,6 @@
   <block id="e10d7022bccbf44b070810cd5909184e" category="list-text">清除聊天記錄</block>
   <block id="3508984ba8ee3276c733e57293128c50" category="list-text">如果您想要變更主題，請在開始時清除聊天。由於 Doc 會記住先前的問題，因此主題變更可能會產生非預期的結果。</block>
   <block id="5ac85d6acb2d0e353a29dbf8a61e4a47" category="paragraph">您的意見回饋有助於我們改善 Doc 的回應方式。使用「文件」聊天視窗中的意見回饋工具，讓我們知道答案是否準確且有幫助，或是否需要改善。您也可以透過 mailto ： ng-docComments @ NetApp ． com[ 與我們聯絡 ] 提出問題或意見回饋。</block>
+  <block id="430fdc9d9149c8cc43c466b7320e92b9" category="list-text">Doc 僅根據產品最新發布的版本回答問題。例如，如果產品有 1.0 版和 2.0 版的文檔，Doc 僅參考最新的 2.0 版文檔。</block>
+  <block id="9f1b245deb3e474f47cde2de8fa217be" category="list-text">為了獲得最佳效果，請務必使用特定的產品名稱。 Doc知道您提問時在哪個頁面，但這只是 Doc 在製定答案時考慮的幾個因素之一。</block>
 </blocks>
