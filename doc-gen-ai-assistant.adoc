@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: doc-gen-ai-assistant.html 
 keywords: netapp, generative ai, doc 
-summary: DOC 是 NetApp .com 上提供的 NetApp AI 助理。只使用本網站的內容來回答問題。DOC 不會使用其他 NetApp 網站或公用網際網路的內容來回答問題。 
+summary: DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨在使用 NetApp .com 上發佈的內容來回應有關 NetApp 產品的問題。 
 ---
 = NetApp 泛用 AI 型助理總覽
 :hardbreaks:
@@ -13,7 +13,7 @@ summary: DOC 是 NetApp .com 上提供的 NetApp AI 助理。只使用本網站�
 
 
 [role="lead"]
-DOC 是 NetApp .com 上提供的 NetApp AI 助理。只使用本網站的內容來回答問題。DOC 不會使用其他 NetApp 網站或公用網際網路的內容來回答問題。
+DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨在使用 NetApp .com 上發佈的內容來回應有關 NetApp 產品的問題。
 
 DOC 可以根據先前的問題建立回應，提出其他問題，並說明如何產生回應。這使得它成為瀏覽 NetApp 文件的寶貴工具。
 
@@ -24,7 +24,7 @@ DOC 可以根據先前的問題建立回應，提出其他問題，並說明如�
 DOC 只能根據 NetApp .com 上發佈的精選內容回答問題。
 
 
-NOTE: 在此試用階段，文件並未接受所有 NetApp .com 內容的訓練。DOC 可回答有關內容的問題，包括但不限於 ONTAP ， BlueXP  ， StorageGRID ， Keystone 和 SnapCenter 內容。如果您不需要資訊文件，請告訴我們。
+NOTE: 在 Beta 階段，Doc 會使用 docs.netapp.com 上發布的大部分（但並非全部）內容來回答問題。 Doc熟悉所有ONTAP、 BlueXP、 StorageGRID、E 系列、 Keystone和SnapCenter文檔，並使用它們來回答有關這些產品的問題。另一方面，Doc 並不熟悉某些舊版產品的文檔。例如，Doc 不使用SnapDrive for UNIX文件來提供答案。在整個 Beta 階段，我們都在努力完善 Doc 的知識。如果您需要 Doc 所沒有的信息，請發送電子郵件至 mailto:ng-doccomments@netapp.com[告知我們]。
 
 * Doc 僅根據產品最新發布的版本回答問題。例如，如果產品有 1.0 版和 2.0 版的文檔，Doc 僅參考最新的 2.0 版文檔。
 * 為了獲得最佳效果，請務必使用特定的產品名稱。 Doc知道您提問時在哪個頁面，但這只是 Doc 在製定答案時考慮的幾個因素之一。
@@ -85,11 +85,11 @@ NOTE: 在此試用階段，文件並未接受所有 NetApp .com 內容的訓練�
 ====
 --
 檢視 Doc 的回應方式。:: 回應後、 Doc 會提供深入見解、讓您瞭解它如何產生回應。這可以讓您構思如何調整問題，以取得所需的結果。
-清除聊天記錄:: 如果您想要變更主題，請在開始時清除聊天。由於 Doc 會記住先前的問題，因此主題變更可能會產生非預期的結果。
+清除聊天記錄:: 如果您想更改主題（例如，想詢問其他產品），請清除聊天記錄以開始新的會話。如果您在開始新主題之前沒有清除聊天記錄，可能會得到不準確的結果。
 
 
 
 
 == 意見反應
 
-您的意見回饋有助於我們改善 Doc 的回應方式。使用「文件」聊天視窗中的意見回饋工具，讓我們知道答案是否準確且有幫助，或是否需要改善。您也可以透過 mailto ： ng-docComments @ NetApp ． com[ 與我們聯絡 ] 提出問題或意見回饋。
+我們正努力持續改善 Doc.請在 Doc 的聊天視窗中傳送意見給我們。請告訴我們、 Doc 的答案是否正確且有幫助、或是否不完整或有任何不足之處。如果您對文件的功能或回應有任何疑問或疑慮，也可以傳送電子郵件至 mailto ： ng-docComments @ NetApp 。 com[ 請與我們聯絡 ] 。
