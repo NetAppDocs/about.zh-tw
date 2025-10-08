@@ -77,14 +77,9 @@
   <block id="dd9caa784c9ca3239781bc659f74ccb8" category="list-text">寫下詳細問題，並指定產品名稱，版本和介面類型（ GUI ， API ）。例如：</block>
   <block id="ccf6477a42eb38a386f552adc5eacddd" category="paragraph">若要從 ONTAP 9.8 升級至 ONTAP 9.12.1 ，我應該在系統管理員中遵循哪些步驟？</block>
   <block id="8558282ecc55619316ab757a333f9464" category="list-text">要求步驟以完成工作。</block>
-  <block id="8f6d686a8622f503fb23b364e0cf71ab" category="list-text">請 Doc 納入完成程序的步驟。不詢問我要如何在沒有網際網路的情況下安裝 BlueXP  Connector ？ _ 請嘗試：</block>
-  <block id="3ef101280b587102ce939479558aa055" category="paragraph">如果要在沒有網際網路的情況下安裝 BlueXP  Connector ，我應該遵循哪些步驟？</block>
   <block id="275396194b219acfa3d9cda68ae5b93c" category="list-text">將複雜的問題分成多個區塊。</block>
   <block id="35fec273a859ca1e6628462d78db71c3" category="list-text">將複雜問題分成較小的問題（也稱為 _ 鏈接 _ ）。DOC 會記住先前的問題，並在您繼續聊天時建立更複雜的答案。</block>
-  <block id="25ef66eb46ca88d1d3a93f83a5769355" category="paragraph">例如，與其詢問 Doc _How do I configure 勒索軟體保護和備份排程 in BlueXP  ？ _ 請嘗試：</block>
-  <block id="84de75573d217bda8683d66d37460ded" category="paragraph">在 BlueXP  中設定勒索軟體保護的步驟為何？</block>
   <block id="9f6c2280afbfa54b375e1af3ff06c653" category="paragraph">接著詢問：</block>
-  <block id="af21a9a42fc6c57d40376fa86d55441c" category="paragraph">在 BlueXP  中設定備份排程的步驟為何？</block>
   <block id="d3badbdbe83ec6535fa70220c14ec37e" category="list-text">請使用引號。</block>
   <block id="102e31705b2b7aa77cd5895ec984961b" category="list-text">請將多字詞組括在引號中。這有助於 Doc 將該詞彙辨識為單一概念，就像您在與人對話時強調該詞彙的方式一樣。</block>
   <block id="8ac004a4dacf3f869c93fa6b2f1f058e" category="paragraph">例如，在本問題中， _ 如何在 ONTAP 中計算儲存效率？ _ 文件可能認為您提出的是 _ 儲存 _ 和 _ 效率 _ 兩個不相關的詞彙。請改為嘗試：</block>
@@ -95,6 +90,11 @@
   <block id="430fdc9d9149c8cc43c466b7320e92b9" category="list-text">Doc 僅根據產品最新發布的版本回答問題。例如，如果產品有 1.0 版和 2.0 版的文檔，Doc 僅參考最新的 2.0 版文檔。</block>
   <block id="9f1b245deb3e474f47cde2de8fa217be" category="list-text">為了獲得最佳效果，請務必使用特定的產品名稱。 Doc知道您提問時在哪個頁面，但這只是 Doc 在製定答案時考慮的幾個因素之一。</block>
   <block id="01dc3c6efffd9690ac127c076429711d" category="summary">DOC 是我們在 docs.netapp.com 上的泛用 AI 輔助工具。DOC 旨在使用 NetApp .com 上發佈的內容來回應有關 NetApp 產品的問題。</block>
-  <block id="d713ad74bfa1e904a5cc9d0540fed7ba" category="admonition">在 Beta 階段，Doc 會使用 docs.netapp.com 上發布的大部分（但並非全部）內容來回答問題。 Doc熟悉所有ONTAP、 BlueXP、 StorageGRID、E 系列、 Keystone和SnapCenter文檔，並使用它們來回答有關這些產品的問題。另一方面，Doc 並不熟悉某些舊版產品的文檔。例如，Doc 不使用SnapDrive for UNIX文件來提供答案。在整個 Beta 階段，我們都在努力完善 Doc 的知識。如果您需要 Doc 所沒有的信息，請發送電子郵件至 mailto:ng-doccomments@netapp.com[告知我們]。</block>
   <block id="80fa76d524e6703e34b8caffc21c9017" category="list-text">如果您想更改主題（例如，想詢問其他產品），請清除聊天記錄以開始新的會話。如果您在開始新主題之前沒有清除聊天記錄，可能會得到不準確的結果。</block>
+  <block id="7a94655c3185c3d5873fcad78666df26" category="admonition">在 Beta 階段，Doc 使用 docs.netapp.com 上發布的大部分（但不是全部）內容來回答問題。 Doc 熟悉所有ONTAP、 NetApp Console、 StorageGRID、E-Series、 Keystone和SnapCenter文檔，並使用它們來回答有關這些產品的問題。另一方面，Doc 不熟悉一些遺留產品的文件。例如，Doc 不使用SnapDrive for UNIX文件來提供答案。在整個 Beta 測試過程中，我們致力於完善 Doc 的知識。如果您需要 Doc 沒有的信息，請發送電子郵件至：ng-doccomments@netapp.com[讓我們知道]。</block>
+  <block id="bac4ca2c5b0ee617baad4e54ade4b552" category="list-text">要求 Doc 包含完成流程的步驟。不要問“如何在沒有互聯網的情況下安裝NetApp控制台代理？”，而是嘗試：</block>
+  <block id="69718d2bba1514ce4734afe8fa5fba5e" category="paragraph">在沒有網路的情況下安裝NetApp控制台代理程式應該遵循哪些步驟？</block>
+  <block id="0e3e10ad9a5cb2a1201539ad3b7ea95f" category="paragraph">例如，不要詢問 Doc _如何在NetApp控制台中設定勒索軟體保護和備份計畫？ _ 而是嘗試：</block>
+  <block id="a4a2ff9e664b60a6bdd6cdbe4fcc1447" category="paragraph">在NetApp控制台中配置勒索軟體保護的步驟是什麼？</block>
+  <block id="98d95c2ccd0fa7f85c70c1ac654e2ac2" category="paragraph">在NetApp控制台中設定備份計畫的步驟是什麼？</block>
 </blocks>

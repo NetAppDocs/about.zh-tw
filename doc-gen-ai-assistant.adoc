@@ -24,7 +24,7 @@ DOC 可以根據先前的問題建立回應，提出其他問題，並說明如�
 DOC 只能根據 NetApp .com 上發佈的精選內容回答問題。
 
 
-NOTE: 在 Beta 階段，Doc 會使用 docs.netapp.com 上發布的大部分（但並非全部）內容來回答問題。 Doc熟悉所有ONTAP、 BlueXP、 StorageGRID、E 系列、 Keystone和SnapCenter文檔，並使用它們來回答有關這些產品的問題。另一方面，Doc 並不熟悉某些舊版產品的文檔。例如，Doc 不使用SnapDrive for UNIX文件來提供答案。在整個 Beta 階段，我們都在努力完善 Doc 的知識。如果您需要 Doc 所沒有的信息，請發送電子郵件至 mailto:ng-doccomments@netapp.com[告知我們]。
+NOTE: 在 Beta 階段，Doc 使用 docs.netapp.com 上發布的大部分（但不是全部）內容來回答問題。 Doc 熟悉所有ONTAP、 NetApp Console、 StorageGRID、E-Series、 Keystone和SnapCenter文檔，並使用它們來回答有關這些產品的問題。另一方面，Doc 不熟悉一些遺留產品的文件。例如，Doc 不使用SnapDrive for UNIX文件來提供答案。在整個 Beta 測試過程中，我們致力於完善 Doc 的知識。如果您需要 Doc 沒有的信息，請發送電子郵件至：ng-doccomments@netapp.com[讓我們知道]。
 
 * Doc 僅根據產品最新發布的版本回答問題。例如，如果產品有 1.0 版和 2.0 版的文檔，Doc 僅參考最新的 2.0 版文檔。
 * 為了獲得最佳效果，請務必使用特定的產品名稱。 Doc知道您提問時在哪個頁面，但這只是 Doc 在製定答案時考慮的幾個因素之一。
@@ -46,30 +46,30 @@ NOTE: 在 Beta 階段，Doc 會使用 docs.netapp.com 上發布的大部分（�
 
 ====
 --
-要求步驟以完成工作。:: 請 Doc 納入完成程序的步驟。不詢問我要如何在沒有網際網路的情況下安裝 BlueXP  Connector ？ _ 請嘗試：
+要求步驟以完成工作。:: 要求 Doc 包含完成流程的步驟。不要問“如何在沒有互聯網的情況下安裝NetApp控制台代理？”，而是嘗試：
 +
 --
 []
 ====
-如果要在沒有網際網路的情況下安裝 BlueXP  Connector ，我應該遵循哪些步驟？
+在沒有網路的情況下安裝NetApp控制台代理程式應該遵循哪些步驟？
 
 ====
 --
 將複雜的問題分成多個區塊。:: 將複雜問題分成較小的問題（也稱為 _ 鏈接 _ ）。DOC 會記住先前的問題，並在您繼續聊天時建立更複雜的答案。
 +
 --
-例如，與其詢問 Doc _How do I configure 勒索軟體保護和備份排程 in BlueXP  ？ _ 請嘗試：
+例如，不要詢問 Doc _如何在NetApp控制台中設定勒索軟體保護和備份計畫？ _ 而是嘗試：
 
 []
 ====
-在 BlueXP  中設定勒索軟體保護的步驟為何？
+在NetApp控制台中配置勒索軟體保護的步驟是什麼？
 
 ====
 接著詢問：
 
 []
 ====
-在 BlueXP  中設定備份排程的步驟為何？
+在NetApp控制台中設定備份計畫的步驟是什麼？
 
 ====
 --
