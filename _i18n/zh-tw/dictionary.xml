@@ -68,7 +68,6 @@
   <block id="858a13328205a50b4d4ea7a8e790b8b7" category="paragraph">我們正努力持續改善 Doc.請在 Doc 的聊天視窗中傳送意見給我們。請告訴我們、 Doc 的答案是否正確且有幫助、或是否不完整或有任何不足之處。如果您對文件的功能或回應有任何疑問或疑慮，也可以傳送電子郵件至 mailto ： ng-docComments @ NetApp 。 com[ 請與我們聯絡 ] 。</block>
   <block id="6179d3ef872af4eb960f4c34232845fc" category="paragraph">DOC 可以根據先前的問題建立回應，提出其他問題，並說明如何產生回應。這使得它成為瀏覽 NetApp 文件的寶貴工具。</block>
   <block id="78d84dc38711d923fa1dc1351e7e5a90" category="section-title">範圍和限制</block>
-  <block id="e02e8d81102c18e5ac8688f45881ccb4" category="paragraph">DOC 只能根據 NetApp .com 上發佈的精選內容回答問題。</block>
   <block id="d3aab3cd74c1c5868499ccc53ebe0a75" category="list-text">DOC 可以使用 NetApp .com 支援的語言聊天，但未接受非英文版本的訓練。</block>
   <block id="e4a95039ccdfb7b85c839ab71de68d99" category="section-title">寫下良好的提示</block>
   <block id="b0d6ece087301f0de0e69fb8d2e2b5ec" category="paragraph">請遵循以下秘訣，以獲得 Doc.</block>
@@ -96,4 +95,5 @@
   <block id="a4a2ff9e664b60a6bdd6cdbe4fcc1447" category="paragraph">在NetApp控制台中配置勒索軟體保護的步驟是什麼？</block>
   <block id="98d95c2ccd0fa7f85c70c1ac654e2ac2" category="paragraph">在NetApp控制台中設定備份計畫的步驟是什麼？</block>
   <block id="c1dd50d72cdca10e54e035173567497f" category="paragraph">Doc 產生的演算法內容可能包含錯誤或不準確之處。所有產生的內容僅應作為起點。您應該始終參考 NetApp 的官方產品文件來驗證 Doc 的回應。您自行承擔依賴 Doc 產生的回應的風險， NetApp對僅使用 Doc 產生的回應可能出現的任何問題或困難概不負責。</block>
+  <block id="8a5bdbcb5016ac5e4f002667c3de782f" category="paragraph">Doc 只能回答基於 docs.netapp.com 上發布的內容的問題。</block>
 </blocks>
