@@ -23,9 +23,6 @@ DOC 可以根據先前的問題建立回應，提出其他問題，並說明如�
 
 DOC 只能根據 NetApp .com 上發佈的精選內容回答問題。
 
-
-NOTE: 在 Beta 階段，Doc 使用 docs.netapp.com 上發布的大部分（但不是全部）內容來回答問題。 Doc 熟悉所有ONTAP、 NetApp Console、 StorageGRID、E-Series、 Keystone和SnapCenter文檔，並使用它們來回答有關這些產品的問題。另一方面，Doc 不熟悉一些遺留產品的文件。例如，Doc 不使用SnapDrive for UNIX文件來提供答案。在整個 Beta 測試過程中，我們致力於完善 Doc 的知識。如果您需要 Doc 沒有的信息，請發送電子郵件至：ng-doccomments@netapp.com[讓我們知道]。
-
 * Doc 僅根據產品最新發布的版本回答問題。例如，如果產品有 1.0 版和 2.0 版的文檔，Doc 僅參考最新的 2.0 版文檔。
 * 為了獲得最佳效果，請務必使用特定的產品名稱。 Doc知道您提問時在哪個頁面，但這只是 Doc 在製定答案時考慮的幾個因素之一。
 * DOC 可以使用 NetApp .com 支援的語言聊天，但未接受非英文版本的訓練。
