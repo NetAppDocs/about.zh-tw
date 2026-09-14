@@ -1,0 +1,84 @@
+---
+sidebar: sidebar 
+permalink: mcp-developer-reference.html 
+keywords: docs.netapp.com MCP server, Model Context Protocol, MCP endpoint, AI development, NetApp documentation 
+summary: 供與 docs.netapp.com 模型上下文協定（MCP）伺服器整合的開發人員參考。 
+---
+= docs.netapp.com MCP 伺服器開發人員參考
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+本參考資料為實作或整合 docs.netapp.com 模型上下文協定（MCP）伺服器的開發人員提供資訊。
+
+
+
+[[mcp-endpoint]]
+== MCP 端點
+
+docs.netapp.com MCP 伺服器具有遠端 HTTP 端點，可透過標準 MCP 介面公開 NetApp 文件。諸如 Visual Studio Code 中的 GitHub Copilot、Claude Desktop、Cursor 和自訂 Python 代理程式框架等用戶端應用程式，可以透過支援的 MCP 用戶端連接到該端點。
+
+.HTTP 端點
+`\https://docs.netapp.com/mcp`
+
+以下範例格式用於在 Visual Studio Code 中使用  `mcp.json` 檔案設定 MCP 伺服器。如需其他受支援 MCP 用戶端的相關資訊，請參閱 link:mcp-server-get-started.html["開始使用 docs.netapp.com MCP 伺服器"]。
+
+[source, json]
+----
+{
+  "servers": {
+    "netapp-docs-mcp": {
+      "type": "http",
+      "url": "https://docs.netapp.com/mcp",
+      "headers": {
+        "Ocp-Apim-Subscription-Key": "${input:Ocp-Apim-Subscription-Key}"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "Ocp-Apim-Subscription-Key",
+      "description": "Enter your access key",
+      "password": true
+    }
+  ]
+}
+----
+
+
+[[tools]]
+== 工具
+
+docs.netapp.com MCP 伺服器提供了一套精簡且專注的工具集，用於文件的探索和擷取。在用戶端呼叫 MCP 伺服器時，您無需指定工具。AI 用戶端會根據查詢選擇正確的工具。
+
+伺服器目前提供以下工具：
+
+* `netapp_docs_ask`：使用擷取增強生成工作流程產生基於文件的答案。
+* `netapp_docs_search`：透過關鍵字和自然語言查詢來探索相關的 NetApp 文件頁面。
+* `netapp_docs_fetch`：擷取特定文件頁面或文章的結構化內容。
+* `health_check`：驗證 MCP 伺服器可用度。
+
+
+
+
+[[errors]]
+== 錯誤
+
+下表顯示 docs.netapp.com MCP 伺服器可能傳回的常見驗證錯誤。
+
+[cols="1,3"]
+|===
+| 錯誤 | 說明 
+
+
+| `MISSING_API_KEY` | 未提供訂閱金鑰。 
+
+
+| `INVALID_API_KEY` | 提供的訂閱金鑰無效或未經授權。 
+|===

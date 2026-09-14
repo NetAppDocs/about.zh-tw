@@ -1,0 +1,74 @@
+---
+sidebar: sidebar 
+permalink: mcp-server-learn.html 
+keywords:  
+summary:  
+---
+= 了解 docs.netapp.com MCP 伺服器
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+docs.netapp.com 模型上下文協定 （MCP） 伺服器提供了一個標準化、可用於代理程式的整合階層，位於現有 NetApp 文件和檢索增強生成 （RAG） 服務之前。它允許 AI 代理程式使用自然語言與企業技術知識進行互動，而無需直接整合 REST API 或開發自訂傳輸途徑。
+
+
+
+[[use-cases]]
+== 使用案例
+
+透過提供對 NetApp 文件的結構化存取，docs.netapp.com MCP 伺服器使 AI 代理程式能夠：
+
+* 探索相關文件
+* 擷取完整文件內容
+* 根據文件產生答案（以 RAG 為基礎的答案產生）
+* 產生有根據且可驗證的回應
+
+
+您可以使用 docs.netapp.com MCP 伺服器執行以下操作：
+
+* 利用 NetApp 內容增強代理程式開發環境。
+* 支援需要可靠文件的工程與支援工作流程。
+* 減少建置和維護自訂搜尋、擷取或 RAG 整合的需求。
+* 請提供以官方 NetApp 文件為依據的答案。
+
+
+
+
+[[how-the-docs-netapp-com-mcp-server-works]]
+== docs.netapp.com MCP 伺服器的工作原理
+
+MCP 伺服器作為官方 NetApp 文件的介面，並傳回來自已發佈內容的可靠答案。
+
+. AI 代理程式向 MCP 伺服器發送請求。
+. MCP 伺服器擷取相關文件。
+. 系統傳回結構化、有根據的回應。
+
+
+
+
+[[requirements]]
+== 需求
+
+* 存取 MCP 伺服器需要訂閱金鑰。若要申請金鑰，請聯絡 ng-docs-mcp@netapp.com 並提供您使用案例的簡要執行摘要。
+* 支援的用戶端包括符合 MCP 標準的環境，例如搭配 GitHub Copilot 的 Visual Studio Code、Claude Desktop、Cursor，以及基於 Python 的代理程式框架。
+* 您必須遵守適用的 NetApp 文件使用條款和存取管理政策。
+
+
+
+
+[[limitations]]
+== 限制
+
+* MCP 伺服器查詢發佈到 docs.netapp.com 的內容。它不會存取私有租戶資料或內部使用者設定檔資訊。
+* 內容僅限於發佈至 docs.netapp.com 的內容，並不取代產品遙測、叢集狀態或其他環境特定的資料來源。
+* 用戶端代理程式如何使用可用工具以及跟進搜尋結果，都會影響回應品質。
+* 該服務以無狀態方式部署在可擴充雲端基礎架構上，因此延遲和新鮮度取決於下游文件和 RAG 服務。
+
+
+.接下來呢？
+xref:mcp-server-get-started.html[開始使用 docs.netapp.com MCP 伺服器]

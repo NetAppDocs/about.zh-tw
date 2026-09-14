@@ -96,4 +96,121 @@
   <block id="98d95c2ccd0fa7f85c70c1ac654e2ac2" category="paragraph">在NetApp控制台中設定備份計畫的步驟是什麼？</block>
   <block id="c1dd50d72cdca10e54e035173567497f" category="paragraph">Doc 產生的演算法內容可能包含錯誤或不準確之處。所有產生的內容僅應作為起點。您應該始終參考 NetApp 的官方產品文件來驗證 Doc 的回應。您自行承擔依賴 Doc 產生的回應的風險， NetApp對僅使用 Doc 產生的回應可能出現的任何問題或困難概不負責。</block>
   <block id="8a5bdbcb5016ac5e4f002667c3de782f" category="paragraph">Doc 只能回答基於 docs.netapp.com 上發布的內容的問題。</block>
+  <block id="2d7cb83f6a78fa8576037be42e6f5bfe" category="summary">供與 docs.netapp.com 模型上下文協定（MCP）伺服器整合的開發人員參考。</block>
+  <block id="0781ee2ea7332eaf44104bfd93d875d6" category="doc">docs.netapp.com MCP 伺服器開發人員參考</block>
+  <block id="d372ff3d1a23c31929efdfca054ceb28" category="paragraph">本參考資料為實作或整合 docs.netapp.com 模型上下文協定（MCP）伺服器的開發人員提供資訊。</block>
+  <block id="f94a303ddb4fcea8c0b4f679273b73c3" category="section-title">MCP 端點</block>
+  <block id="04b6245be0ba27d68bc5cebe33b33b11" category="paragraph">docs.netapp.com MCP 伺服器具有遠端 HTTP 端點，可透過標準 MCP 介面公開 NetApp 文件。諸如 Visual Studio Code 中的 GitHub Copilot、Claude Desktop、Cursor 和自訂 Python 代理程式框架等用戶端應用程式，可以透過支援的 MCP 用戶端連接到該端點。</block>
+  <block id="84aa40cb3001b40215b0a93a27224513" category="paragraph-title">HTTP 端點</block>
+  <block id="c6836ea6c7734810c89adab56aad5b09" category="paragraph"><block ref="562287e68ceb246808d766d15b4c5306" prefix="" category="inline-code"></block></block>
+  <block id="79dc4e99718ffab967eff63e4ad61b02" category="inline-link-macro">開始使用 docs.netapp.com MCP 伺服器</block>
+  <block id="83c74870caabf87b2af2ac9755a7d3a4" category="paragraph">以下範例格式用於在 Visual Studio Code 中使用 <block ref="d289533227af31b1e71af612edf41f92" prefix=" " category="inline-code"></block> 檔案設定 MCP 伺服器。如需其他受支援 MCP 用戶端的相關資訊，請參閱 <block ref="e08031093a9ce69f4a5bc48df43bde92" category="inline-link-macro-rx"></block>。</block>
+  <block id="8625e1de7be14c39b1d14dc03d822497" category="section-title">工具</block>
+  <block id="47888bad2106ef9bd3cf8c7b8abf44bb" category="paragraph">docs.netapp.com MCP 伺服器提供了一套精簡且專注的工具集，用於文件的探索和擷取。在用戶端呼叫 MCP 伺服器時，您無需指定工具。AI 用戶端會根據查詢選擇正確的工具。</block>
+  <block id="7b3ebc479b1ea6be6f9b84e22b01d631" category="paragraph">伺服器目前提供以下工具：</block>
+  <block id="05b7f49e3481b340ef099a049c913bb8" category="list-text"><block ref="267f9220616e88dcd31d60c6e6584990" prefix="" category="inline-code"></block>：使用擷取增強生成工作流程產生基於文件的答案。</block>
+  <block id="2cfaac3a0912d82dbbaf8d23cf2aa15a" category="list-text"><block ref="003ff8a2f2f5414d69d891473717ff6b" prefix="" category="inline-code"></block>：透過關鍵字和自然語言查詢來探索相關的 NetApp 文件頁面。</block>
+  <block id="b2f93b02f76d4b6f51bacb865131c6b2" category="list-text"><block ref="2b5cbd88764927a6435b285a02164f1d" prefix="" category="inline-code"></block>：擷取特定文件頁面或文章的結構化內容。</block>
+  <block id="013af2fe54d3ed956ca1cc7726803106" category="list-text"><block ref="1962a11396d63dc19923d194f6e2793f" prefix="" category="inline-code"></block>：驗證 MCP 伺服器可用度。</block>
+  <block id="5ef0c737746fae2ca90e66c39333f8f6" category="section-title">錯誤</block>
+  <block id="0a7219a326c91c69bd5d8aba9ac65781" category="paragraph">下表顯示 docs.netapp.com MCP 伺服器可能傳回的常見驗證錯誤。</block>
+  <block id="902b0d55fddef6f8d651fe1035b7d4bd" category="cell">錯誤</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">說明</block>
+  <block id="c224fb2b9521eb00ab13e90903629b51" category="cell"><block ref="c24294c47f917eabec992a2dd78b09bb" prefix="" category="inline-code"></block></block>
+  <block id="c3fb1965dd60db8cd124420ff1a66630" category="cell">未提供訂閱金鑰。</block>
+  <block id="5b0dd82b801e95bdf59e5281fdc0fbd3" category="cell"><block ref="7dbdd95146b48c6945f18fd6b39bba32" prefix="" category="inline-code"></block></block>
+  <block id="72e663032d06d5df3238968ee1724919" category="cell">提供的訂閱金鑰無效或未經授權。</block>
+  <block id="7da815aae68e3c6dd31f865c69ecabcf" category="paragraph">將您的 AI 開發環境連接到 docs.netapp.com 模型上下文協定（MCP）伺服器。設定 MCP 伺服器後，即可使用它從已發佈的 NetApp 文件中傳回可靠的答案。</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="section-title">先決條件</block>
+  <block id="8c800edb86057a8f4b5234fb71fe0db0" category="paragraph">在設定 docs.netapp.com MCP 伺服器之前，請先驗證下列事項：</block>
+  <block id="0b669860723caf105189fdad22da0ec1" category="inline-link-macro">了解 docs.netapp.com MCP 伺服器</block>
+  <block id="b102980a3388d1f2f443365b9dcb146a" category="list-text">您已檢閱 <block ref="1f1b6cd0d2f9f0ba63c776d6d29480ed" category="inline-link-macro-rx"></block> 中的需求與限制。</block>
+  <block id="bf41fd581dff9296929c69011a53beca" category="list-text">您可以存取受支援且符合 MCP 標準的用戶端，例如搭配 GitHub Copilot 的 Visual Studio Code、Claude Desktop、Cursor 或以 Python 為基礎的代理程式框架。</block>
+  <block id="bc7c4b2284d2fb775f44a9d0fd3954e0" category="list-text">您必須擁有有效的訂閱金鑰。如果您未提供金鑰，MCP 請求將失敗並傳回存取錯誤。若要申請訂閱金鑰，請聯絡 ng-docs-mcp@netapp.com 並提供您使用案例的簡要執行摘要。</block>
+  <block id="4d30100974473e62b0547de14b3f134b" category="list-text">您擁有 docs.netapp.com MCP 端點的網路存取：<block ref="562287e68ceb246808d766d15b4c5306" prefix=" " category="inline-code"></block>。</block>
+  <block id="9d3d7a53574bbdcf27b039f28a8bcfbc" category="section-title">設定您的開發環境</block>
+  <block id="107d53fdbf4e07833d65ac635e43c817" category="paragraph">選擇適合您環境的設定選項。</block>
+  <block id="756d81882ef284fd51d61a57285c57ec" category="list-text"><block ref="39f12733fba70ee818f3949b935d7b9a" category="inline-xref-macro-rx"></block></block>
+  <block id="6b24943f6c7feb51cf13d1fa87fc72e2" category="list-text"><block ref="a0f780c61f3b9c1dccc2e14877fa038c" category="inline-xref-macro-rx"></block></block>
+  <block id="7d4799d68319acfe2bd60c19bf055209" category="list-text"><block ref="8237ac65ab2fc792af68941ba80ec6dd" category="inline-xref-macro-rx"></block></block>
+  <block id="50cda95404b8cbf7d37b773fb0cd1ed9" category="list-text"><block ref="d4c067d66ec5010a916dd23f4e141d15" category="inline-xref-macro-rx"></block></block>
+  <block id="d774949573271fd061a2ad055b3a478b" category="section-title">Visual Studio Code 設定</block>
+  <block id="e3198e8458fe671e980009d2f115217a" category="paragraph">您可以使用 GitHub Copilot 透過設定 <block ref="d289533227af31b1e71af612edf41f92" prefix=" " category="inline-code"></block> 檔案從 Visual Studio Code 連線到 MCP 伺服器。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">開始之前</block>
+  <block id="be4b90d27e154d87debbb308f2470047" category="list-text">此工作需要啟用 GitHub Copilot 擴充功能的 Visual Studio Code。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
+  <block id="f7374d018dffa53cddecf18166e37749" category="list-text">在 Visual Studio Code 的專案工作區中，完成以下步驟：</block>
+  <block id="3527839c75fc014d86c10169754df3bd" category="list-text">建立資料夾，命名為<block ref="7fde71560fa9376d2d93a25b42d719f5" prefix=" " category="inline-code"></block></block>
+  <block id="4054d40630e5aa7effac62ab05efc577" category="list-text">在名為<block ref="d289533227af31b1e71af612edf41f92" prefix=" " category="inline-code"></block>的資料夾中建立檔案</block>
+  <block id="d07ded0c7b404b5cb6e56ea91f312625" category="list-text">設定<block ref="d289533227af31b1e71af612edf41f92" prefix=" " category="inline-code"></block>檔案。</block>
+  <block id="01d3a32280cc94c7c057cd3d14488785" category="list-text">儲存檔案。</block>
+  <block id="b021b06da10dbe8f87006ce4bd6e00e3" category="list-text">（選用）設定全域存取。</block>
+  <block id="21342184ffe3ce856a6061c300c2b7b3" category="paragraph">若要在所有 Visual Studio Code 專案和工作區中設定 docs.netapp.com MCP 伺服器，請將組態新增至全域使用者設定目錄。</block>
+  <block id="927c8fed8b09eda6439e8db86ac0ea46" category="list-text">*Windows*：<block ref="07f1431c55cd039ae9261609046e453a" prefix=" " category="inline-code"></block></block>
+  <block id="e3516373b0f7b86e544f1ee3d587ab46" category="list-text">*macOS*：<block ref="02bd2042ba4d5b87fb8e2061daea56e6" prefix=" " category="inline-code"></block></block>
+  <block id="4b44a2beebaf86ec4b25fc66f6b9581c" category="paragraph">新增伺服器定義：</block>
+  <block id="1a62c29b8faf7edddef904f33e67525b" category="admonition">修改全域<block ref="d289533227af31b1e71af612edf41f92" prefix=" " category="inline-code"></block>檔案後，重新啟動 Visual Studio Code 以套用組態。</block>
+  <block id="9459f4061f10e1133797c5f12e0a2d00" category="list-text">驗證組態。</block>
+  <block id="e19dfd92f9e7fc97413b4f3dacb54522" category="list-text">在工作區中開啟 Visual Studio Code。</block>
+  <block id="60a5d22cfa5f95623d9b84739bd17984" category="list-text">確認 <block ref="c8b34c99d394c32ef013ae4626236494" prefix=" " category="inline-code"></block> 檔案是否存在。</block>
+  <block id="9674f62509ca95d835baa7334ba30374" category="list-text">使用 Copilot 提問。</block>
+  <block id="0a52730597fb4ffa01fc117d9e71e3a9" category="paragraph-title">範例</block>
+  <block id="7fb94b400a2f9eaf07f993f59239bcdb" category="paragraph">_ONTAP 和 Cloud Volumes ONTAP 有什麼差別？_</block>
+  <block id="92454e39a06c6f288bfdccc050007941" category="section-title">Python AI 代理程式整合</block>
+  <block id="e6b5cbb42455c6d92b371c4ff3629f19" category="paragraph">如果您正在建立直接呼叫 MCP 伺服器的應用程式或 AI 代理程式，請使用此選項。</block>
+  <block id="c0e20ca8e8d3b6a6e88111dcea4b94e2" category="paragraph">您的用戶端連接到 MCP 端點並呼叫工具。</block>
+  <block id="928be6f9ccc3ea24e8d20baeab03681a" category="section-title">Claude Desktop 組態</block>
+  <block id="ae8496e4afc43bab2efd122716f0aee4" category="paragraph">若要將 docs.netapp.com MCP 伺服器註冊至 Claude Desktop，請更新 MCP 組態檔案：</block>
+  <block id="50ae1a0b1a859c33e895d72bcc7ce737" category="list-text">*macOS*：<block ref="cb8ed374db47ccfda54a2f6c97732ff4" prefix=" " category="inline-code"></block></block>
+  <block id="3797cad4bd4a84e0e471c0dc477b6567" category="list-text">*Windows*：<block ref="e98e970f7ab6dce248d693251a905960" prefix=" " category="inline-code"></block></block>
+  <block id="f12e71096dd3355f548136dbcdaab706" category="section-title">游標組態</block>
+  <block id="c4c19e06a69347e5bc5ae4425add3893" category="paragraph">若要將 docs.netapp.com MCP 伺服器註冊到 Cursor，請更新 MCP 組態檔案。</block>
+  <block id="c0618641a757ec6c5769ae86992ee5d5" category="paragraph">若要全域套用此組態，請使用下列路徑：</block>
+  <block id="0ae751be053d3fc48f6a82e5d14b4351" category="list-text">*Mac OS*：<block ref="97e81563fb5231feb950e6eeac43ebd0" prefix=" " category="inline-code"></block></block>
+  <block id="5ee4d4cade678205b0d49578af3c4b3a" category="list-text">*Windows*：<block ref="670ac8a759cf32074af70484659f4c9c" prefix=" " category="inline-code"></block></block>
+  <block id="ffa89dd593edf45d84d1a4c65e175f23" category="paragraph">若要在單一專案中套用組態，請在專案根目錄中使用 <block ref="52f804d2bc1533d37bee92c5a51458ea" prefix=" " category="inline-code"></block>。</block>
+  <block id="4a1480e03c0b193c1caced296f42c48c" category="admonition">如果該檔案已設定其他 MCP 伺服器，請在現有的 <block ref="b841d7ae59ad110dffabe709b5e8a1c0" prefix=" " category="inline-code"></block> 物件內新增 <block ref="9dda5cbb4cc55e2b5af943d889109602" prefix=" " category="inline-code"></block> （請務必在上一筆項目後方加上逗號）。如果沒有 <block ref="b841d7ae59ad110dffabe709b5e8a1c0" prefix=" " category="inline-code"></block> 鍵，請將該鍵新增至與任何其他設定並列的頂端層級。</block>
+  <block id="5a0ee65a57e3e47f7100f84c89d64010" category="section-title">使用 docs.netapp.com MCP 伺服器</block>
+  <block id="1a75d532a5aee2e25e713249e74b8482" category="paragraph">設定 MCP 伺服器後，您就可以直接在 Visual Studio Code 或您選擇的用戶端介面中與 NetApp 技術文件互動。</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">關於此任務</block>
+  <block id="c5692c43168f96a99373fd6e31c940fb" category="list-text">AI 用戶端會根據您的查詢選擇合適的工具來提供結果。</block>
+  <block id="a52d3adeee88ebd00cc6b4c2a65a5b75" category="list-text">使用清晰、完整的問題，而不是簡短或模糊的查詢。</block>
+  <block id="42488c0812f37d5299ea1c0eca2f55a8" category="list-text">回應均以官方 NetApp 文件為依據。</block>
+  <block id="7b4df1f195559afee2ff083bedc36a33" category="list-text">在您首選的 MCP 相容用戶端上開啟聊天。</block>
+  <block id="11a171f8117ca00332da239f1d501ac0" category="list-text">呼叫已設定的 MCP 伺服器，並提出有關 NetApp 產品或程序的明確問題。</block>
+  <block id="fb21f880582deebcf8be87d87ddb748e" category="list-text">檢閱有根據的回應。</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="list-title">相關資訊</block>
+  <block id="775ab1c51808b23bf5a9c58956c269ab" category="inline-link-macro">開發人員參考</block>
+  <block id="90908cada5335b02e5364619b58b1a6f" category="list-text"><block ref="90908cada5335b02e5364619b58b1a6f" category="inline-link-macro-rx"></block></block>
+  <block id="1ab4c868d6a3f86ee4fb6e4cdcf6a0e9" category="paragraph">docs.netapp.com 模型上下文協定 （MCP） 伺服器提供了一個標準化、可用於代理程式的整合階層，位於現有 NetApp 文件和檢索增強生成 （RAG） 服務之前。它允許 AI 代理程式使用自然語言與企業技術知識進行互動，而無需直接整合 REST API 或開發自訂傳輸途徑。</block>
+  <block id="2a3b399798aa16ecfbc1425cc560bfad" category="section-title">使用案例</block>
+  <block id="d4476bb2dd8d082fae36932403baa832" category="paragraph">透過提供對 NetApp 文件的結構化存取，docs.netapp.com MCP 伺服器使 AI 代理程式能夠：</block>
+  <block id="ceaa9d5786ef81fc0d823bb3452765d1" category="list-text">探索相關文件</block>
+  <block id="877d64e2b73adeb38e6bb87e634d6832" category="list-text">擷取完整文件內容</block>
+  <block id="2cd23189b46407e642a7368e41be15b6" category="list-text">根據文件產生答案（以 RAG 為基礎的答案產生）</block>
+  <block id="c660bf77124acf67b71f38ade239afe5" category="list-text">產生有根據且可驗證的回應</block>
+  <block id="f29ddb4ec663cb6ad59a507e7d55e42e" category="paragraph">您可以使用 docs.netapp.com MCP 伺服器執行以下操作：</block>
+  <block id="5d45ef3bcd0bf29d5fb96d778cdf14fd" category="list-text">利用 NetApp 內容增強代理程式開發環境。</block>
+  <block id="f86da1cbb22f902e52aa18eaee2f1aeb" category="list-text">支援需要可靠文件的工程與支援工作流程。</block>
+  <block id="47d57946fde3dd47a58960c91bb0793e" category="list-text">減少建置和維護自訂搜尋、擷取或 RAG 整合的需求。</block>
+  <block id="6c39a27d5146ae031d8ebf7b69517fe8" category="list-text">請提供以官方 NetApp 文件為依據的答案。</block>
+  <block id="5a5a5320c2f5cd0fa3faaf38a42b481d" category="section-title">docs.netapp.com MCP 伺服器的工作原理</block>
+  <block id="353f2b6ebfc957a2175ac50d69126df5" category="paragraph">MCP 伺服器作為官方 NetApp 文件的介面，並傳回來自已發佈內容的可靠答案。</block>
+  <block id="e13ee7efbf9977f49c9e8513f0e4296e" category="list-text">AI 代理程式向 MCP 伺服器發送請求。</block>
+  <block id="6c8c2e3e01cb22a68afa49fc586c57f4" category="list-text">MCP 伺服器擷取相關文件。</block>
+  <block id="b33b5068d9ca6daad925d8c59aa95d97" category="list-text">系統傳回結構化、有根據的回應。</block>
+  <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">需求</block>
+  <block id="eb24a8e1c473094e73637c7035efa009" category="list-text">存取 MCP 伺服器需要訂閱金鑰。若要申請金鑰，請聯絡 ng-docs-mcp@netapp.com 並提供您使用案例的簡要執行摘要。</block>
+  <block id="6f9d04430e4950a348f25de6e4f0b624" category="list-text">支援的用戶端包括符合 MCP 標準的環境，例如搭配 GitHub Copilot 的 Visual Studio Code、Claude Desktop、Cursor，以及基於 Python 的代理程式框架。</block>
+  <block id="64fb828e24870f101d9fff2fa7e89ddb" category="list-text">您必須遵守適用的 NetApp 文件使用條款和存取管理政策。</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
+  <block id="a7ac2140ef07c6023dd4985cbc29ed10" category="list-text">MCP 伺服器查詢發佈到 docs.netapp.com 的內容。它不會存取私有租戶資料或內部使用者設定檔資訊。</block>
+  <block id="c0d0dc2b2768aa4cac3ce786ed53ca70" category="list-text">內容僅限於發佈至 docs.netapp.com 的內容，並不取代產品遙測、叢集狀態或其他環境特定的資料來源。</block>
+  <block id="0116743f3d7cd7c62f3bd7d8d7a49038" category="list-text">用戶端代理程式如何使用可用工具以及跟進搜尋結果，都會影響回應品質。</block>
+  <block id="41df79761f89a5f1ca3a62ecff5212ad" category="list-text">該服務以無狀態方式部署在可擴充雲端基礎架構上，因此延遲和新鮮度取決於下游文件和 RAG 服務。</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">接下來呢？</block>
+  <block id="3ce3b3aa73145cbd6a9e75e2891c64a0" category="paragraph"><block ref="3ce3b3aa73145cbd6a9e75e2891c64a0" category="inline-xref-macro-rx"></block></block>
+  <block id="49374038ca53fa360c30df16dffbea40" category="sidebar">docs.netapp.com MCP 伺服器</block>
+  <block id="2f1a3e62508d88ddc31f1aa72a8334d4" category="sidebar">學習</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
 </blocks>
