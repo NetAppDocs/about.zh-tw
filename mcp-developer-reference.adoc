@@ -59,7 +59,7 @@ docs.netapp.com MCP 伺服器提供了一套精簡且專注的工具集，用於
 
 伺服器目前提供以下工具：
 
-* `netapp_docs_ask`：使用擷取增強生成工作流程產生基於文件的答案。
+* `netapp_docs_ask`：使用檢索增強生成工作流程，從發佈到 docs.netapp.com 的內容中產生答案。
 * `netapp_docs_search`：透過關鍵字和自然語言查詢來探索相關的 NetApp 文件頁面。
 * `netapp_docs_fetch`：擷取特定文件頁面或文章的結構化內容。
 * `health_check`：驗證 MCP 伺服器可用度。

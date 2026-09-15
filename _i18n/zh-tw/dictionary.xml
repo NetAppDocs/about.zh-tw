@@ -108,7 +108,6 @@
   <block id="8625e1de7be14c39b1d14dc03d822497" category="section-title">工具</block>
   <block id="47888bad2106ef9bd3cf8c7b8abf44bb" category="paragraph">docs.netapp.com MCP 伺服器提供了一套精簡且專注的工具集，用於文件的探索和擷取。在用戶端呼叫 MCP 伺服器時，您無需指定工具。AI 用戶端會根據查詢選擇正確的工具。</block>
   <block id="7b3ebc479b1ea6be6f9b84e22b01d631" category="paragraph">伺服器目前提供以下工具：</block>
-  <block id="05b7f49e3481b340ef099a049c913bb8" category="list-text"><block ref="267f9220616e88dcd31d60c6e6584990" prefix="" category="inline-code"></block>：使用擷取增強生成工作流程產生基於文件的答案。</block>
   <block id="2cfaac3a0912d82dbbaf8d23cf2aa15a" category="list-text"><block ref="003ff8a2f2f5414d69d891473717ff6b" prefix="" category="inline-code"></block>：透過關鍵字和自然語言查詢來探索相關的 NetApp 文件頁面。</block>
   <block id="b2f93b02f76d4b6f51bacb865131c6b2" category="list-text"><block ref="2b5cbd88764927a6435b285a02164f1d" prefix="" category="inline-code"></block>：擷取特定文件頁面或文章的結構化內容。</block>
   <block id="013af2fe54d3ed956ca1cc7726803106" category="list-text"><block ref="1962a11396d63dc19923d194f6e2793f" prefix="" category="inline-code"></block>：驗證 MCP 伺服器可用度。</block>
@@ -120,7 +119,6 @@
   <block id="c3fb1965dd60db8cd124420ff1a66630" category="cell">未提供訂閱金鑰。</block>
   <block id="5b0dd82b801e95bdf59e5281fdc0fbd3" category="cell"><block ref="7dbdd95146b48c6945f18fd6b39bba32" prefix="" category="inline-code"></block></block>
   <block id="72e663032d06d5df3238968ee1724919" category="cell">提供的訂閱金鑰無效或未經授權。</block>
-  <block id="7da815aae68e3c6dd31f865c69ecabcf" category="paragraph">將您的 AI 開發環境連接到 docs.netapp.com 模型上下文協定（MCP）伺服器。設定 MCP 伺服器後，即可使用它從已發佈的 NetApp 文件中傳回可靠的答案。</block>
   <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="section-title">先決條件</block>
   <block id="8c800edb86057a8f4b5234fb71fe0db0" category="paragraph">在設定 docs.netapp.com MCP 伺服器之前，請先驗證下列事項：</block>
   <block id="0b669860723caf105189fdad22da0ec1" category="inline-link-macro">了解 docs.netapp.com MCP 伺服器</block>
@@ -171,34 +169,24 @@
   <block id="ffa89dd593edf45d84d1a4c65e175f23" category="paragraph">若要在單一專案中套用組態，請在專案根目錄中使用 <block ref="52f804d2bc1533d37bee92c5a51458ea" prefix=" " category="inline-code"></block>。</block>
   <block id="4a1480e03c0b193c1caced296f42c48c" category="admonition">如果該檔案已設定其他 MCP 伺服器，請在現有的 <block ref="b841d7ae59ad110dffabe709b5e8a1c0" prefix=" " category="inline-code"></block> 物件內新增 <block ref="9dda5cbb4cc55e2b5af943d889109602" prefix=" " category="inline-code"></block> （請務必在上一筆項目後方加上逗號）。如果沒有 <block ref="b841d7ae59ad110dffabe709b5e8a1c0" prefix=" " category="inline-code"></block> 鍵，請將該鍵新增至與任何其他設定並列的頂端層級。</block>
   <block id="5a0ee65a57e3e47f7100f84c89d64010" category="section-title">使用 docs.netapp.com MCP 伺服器</block>
-  <block id="1a75d532a5aee2e25e713249e74b8482" category="paragraph">設定 MCP 伺服器後，您就可以直接在 Visual Studio Code 或您選擇的用戶端介面中與 NetApp 技術文件互動。</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">關於此任務</block>
   <block id="c5692c43168f96a99373fd6e31c940fb" category="list-text">AI 用戶端會根據您的查詢選擇合適的工具來提供結果。</block>
   <block id="a52d3adeee88ebd00cc6b4c2a65a5b75" category="list-text">使用清晰、完整的問題，而不是簡短或模糊的查詢。</block>
-  <block id="42488c0812f37d5299ea1c0eca2f55a8" category="list-text">回應均以官方 NetApp 文件為依據。</block>
   <block id="7b4df1f195559afee2ff083bedc36a33" category="list-text">在您首選的 MCP 相容用戶端上開啟聊天。</block>
   <block id="11a171f8117ca00332da239f1d501ac0" category="list-text">呼叫已設定的 MCP 伺服器，並提出有關 NetApp 產品或程序的明確問題。</block>
-  <block id="fb21f880582deebcf8be87d87ddb748e" category="list-text">檢閱有根據的回應。</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="list-title">相關資訊</block>
   <block id="775ab1c51808b23bf5a9c58956c269ab" category="inline-link-macro">開發人員參考</block>
   <block id="90908cada5335b02e5364619b58b1a6f" category="list-text"><block ref="90908cada5335b02e5364619b58b1a6f" category="inline-link-macro-rx"></block></block>
   <block id="1ab4c868d6a3f86ee4fb6e4cdcf6a0e9" category="paragraph">docs.netapp.com 模型上下文協定 （MCP） 伺服器提供了一個標準化、可用於代理程式的整合階層，位於現有 NetApp 文件和檢索增強生成 （RAG） 服務之前。它允許 AI 代理程式使用自然語言與企業技術知識進行互動，而無需直接整合 REST API 或開發自訂傳輸途徑。</block>
   <block id="2a3b399798aa16ecfbc1425cc560bfad" category="section-title">使用案例</block>
   <block id="d4476bb2dd8d082fae36932403baa832" category="paragraph">透過提供對 NetApp 文件的結構化存取，docs.netapp.com MCP 伺服器使 AI 代理程式能夠：</block>
-  <block id="ceaa9d5786ef81fc0d823bb3452765d1" category="list-text">探索相關文件</block>
-  <block id="877d64e2b73adeb38e6bb87e634d6832" category="list-text">擷取完整文件內容</block>
-  <block id="2cd23189b46407e642a7368e41be15b6" category="list-text">根據文件產生答案（以 RAG 為基礎的答案產生）</block>
-  <block id="c660bf77124acf67b71f38ade239afe5" category="list-text">產生有根據且可驗證的回應</block>
   <block id="f29ddb4ec663cb6ad59a507e7d55e42e" category="paragraph">您可以使用 docs.netapp.com MCP 伺服器執行以下操作：</block>
   <block id="5d45ef3bcd0bf29d5fb96d778cdf14fd" category="list-text">利用 NetApp 內容增強代理程式開發環境。</block>
   <block id="f86da1cbb22f902e52aa18eaee2f1aeb" category="list-text">支援需要可靠文件的工程與支援工作流程。</block>
   <block id="47d57946fde3dd47a58960c91bb0793e" category="list-text">減少建置和維護自訂搜尋、擷取或 RAG 整合的需求。</block>
-  <block id="6c39a27d5146ae031d8ebf7b69517fe8" category="list-text">請提供以官方 NetApp 文件為依據的答案。</block>
   <block id="5a5a5320c2f5cd0fa3faaf38a42b481d" category="section-title">docs.netapp.com MCP 伺服器的工作原理</block>
-  <block id="353f2b6ebfc957a2175ac50d69126df5" category="paragraph">MCP 伺服器作為官方 NetApp 文件的介面，並傳回來自已發佈內容的可靠答案。</block>
   <block id="e13ee7efbf9977f49c9e8513f0e4296e" category="list-text">AI 代理程式向 MCP 伺服器發送請求。</block>
   <block id="6c8c2e3e01cb22a68afa49fc586c57f4" category="list-text">MCP 伺服器擷取相關文件。</block>
-  <block id="b33b5068d9ca6daad925d8c59aa95d97" category="list-text">系統傳回結構化、有根據的回應。</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">需求</block>
   <block id="eb24a8e1c473094e73637c7035efa009" category="list-text">存取 MCP 伺服器需要訂閱金鑰。若要申請金鑰，請聯絡 ng-docs-mcp@netapp.com 並提供您使用案例的簡要執行摘要。</block>
   <block id="6f9d04430e4950a348f25de6e4f0b624" category="list-text">支援的用戶端包括符合 MCP 標準的環境，例如搭配 GitHub Copilot 的 Visual Studio Code、Claude Desktop、Cursor，以及基於 Python 的代理程式框架。</block>
@@ -213,4 +201,16 @@
   <block id="49374038ca53fa360c30df16dffbea40" category="sidebar">docs.netapp.com MCP 伺服器</block>
   <block id="2f1a3e62508d88ddc31f1aa72a8334d4" category="sidebar">學習</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
+  <block id="cee64feb9feac4fe24b2f552e033a8af" category="list-text"><block ref="267f9220616e88dcd31d60c6e6584990" prefix="" category="inline-code"></block>：使用檢索增強生成工作流程，從發佈到 docs.netapp.com 的內容中產生答案。</block>
+  <block id="0859b6b258e0987f7cfb629dd54c386a" category="paragraph">將您的 AI 開發環境連接到 docs.netapp.com 模型上下文協定（MCP）伺服器。設定 MCP 伺服器後，您可以使用它來傳回源自 docs.netapp.com 上發布的技術產品文件的答案。</block>
+  <block id="687f81f8a0349745ce1def022b53ebd2" category="paragraph">設定 MCP 伺服器後，您可以直接在首選的用戶端介面中與 NetApp 技術文件互動。</block>
+  <block id="f25d61565189c824fa15ee05226cdf41" category="list-text">所有回應均以官方 NetApp 文件為依據。</block>
+  <block id="3946e56444bd69946336bfbe124551fb" category="list-text">查看回應。</block>
+  <block id="e0003a49ceb72b60b57b36c6a35d313e" category="list-text">尋找相關文件。</block>
+  <block id="b9d1d0f893fb2e507ccda7c1602f5269" category="list-text">取得完整文件內容。</block>
+  <block id="b779cad88799ce5a27979157bceacd1f" category="list-text">根據文件產生答案（基於 RAG 的答案產生）。</block>
+  <block id="a7a6265b6d75705d330da33642bd7456" category="list-text">產生可驗證的回應。</block>
+  <block id="b8626bba8d7952d35bfc811b40557232" category="list-text">請提供源自官方 NetApp 文件的答案。</block>
+  <block id="4e9f4ec98e8a9170fe0006df05889dbe" category="paragraph">MCP 伺服器作為官方 NetApp 文件的介面，並傳回從 docs.netapp.com 上發布的內容衍生出的答案。</block>
+  <block id="8d4e0bffb3c50192715482abbf7b71b9" category="list-text">系統傳回結構化回應。</block>
 </blocks>
